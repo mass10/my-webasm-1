@@ -9,5 +9,12 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet(name: &str) {
-	alert(&format!("Hello, {}!", name));
+    let message = format!("{}", name);
+   	alert(&message);
+}
+
+#[wasm_bindgen]
+#[no_mangle]
+pub fn wasm_to_uppercase(name: &str) -> String {
+    return name.to_uppercase();
 }

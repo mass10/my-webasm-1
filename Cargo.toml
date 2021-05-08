@@ -1,6 +1,6 @@
 [package]
 name = "my-webasm-1"
-version = "0.1.2"
+version = "0.1.7"
 authors = ["Irisawa Masaru <irisawa.masaru@gmail.com>"]
 description = "My first wasm"
 license = "MIT"
